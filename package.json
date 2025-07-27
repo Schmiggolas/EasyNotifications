@@ -1,0 +1,20 @@
+{
+  "name": "dev.schmiggolas.easy-notifications",
+  "version": "1.0.0",
+  "displayName": "Easy Notifications",
+  "description": "This package provides a simple way to create notifications in Unity. It allows you to create notifications with text, icons, and buttons, and displays them in a user-friendly manner.",
+  "unity": "2019.1",
+  "unityRelease": "0b5",
+  "dependencies": {
+ },
+ "keywords": [
+    "UI",
+    "Notifications"
+  ],
+  "author": {
+    "name": "Nicolas Teichtweier",
+    "email": "hello@schmiggolas.dev",
+    "url": "https://schmiggolas.dev"
+  }
+}
+
