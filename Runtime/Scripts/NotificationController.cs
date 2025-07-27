@@ -41,7 +41,7 @@ namespace Schmiggolas.EasyNotifications
             Destroy(notification.gameObject);
         }
 
-        public bool CanHandleNotification()
+        private bool CanHandleNotification()
         {
             if (maxNotificationCount == 0)
             {

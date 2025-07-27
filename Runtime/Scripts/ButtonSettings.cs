@@ -2,7 +2,7 @@ using System;
 
 namespace Schmiggolas.EasyNotifications
 {
-    public struct ButtonSettings
+    public class ButtonSettings
     {
         public string text;
         public Action onClick;

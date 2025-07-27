@@ -22,7 +22,7 @@ namespace Schmiggolas.EasyNotifications
             var settings = new NotificationSettings(0, "Test Notification With Buttons",null, new ButtonSettings[]{
                 new("Button 1", () => Debug.Log("Button 1 clicked"), false),
                 new("Button 2", () => Debug.Log("Button 2 clicked"), false),
-                new("Close", () => Debug.Log("Button 3 clicked"), true)
+                new("Close", () => Debug.Log("Button 3 clicked"), true) // closes the notification after clicking
             });
 
             NotificationController.EnqueueNotification(settings);
