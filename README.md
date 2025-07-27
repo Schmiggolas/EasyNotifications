@@ -8,12 +8,11 @@ Easy Notifications is a lightweight package that allows you to quickly implement
 
 ## Features
 
-- 🚀 Simple API for displaying notifications
-- 🎨 Customizable appearance (colors, icons, animations)
-- ⏱️ Automatic timeout with configurable duration
-- 📱 Responsive design for different screen sizes
-- 🧩 Easy integration with existing UI systems. Works nicely with Unity Layouting System
-- 📦 Minimal dependencies (TextMeshPro only)
+- Simple API for displaying notifications
+- Automatic timeout with configurable duration
+- Responsive design for different screen sizes
+- Easy integration with existing UI systems. Works nicely with Unity Layouting System
+- Minimal dependencies (TextMeshPro only)
 
 ## Installation
 
@@ -34,7 +33,7 @@ Easy Notifications is a lightweight package that allows you to quickly implement
 Add and setup a NotificationController in your scene. If you're having trouble with the setup, check out the included demo scene.
 Then in your code call the function as follows.
 
-Check out 
+Check out [`NotificationSettings`](https://github.com/Schmiggolas/EasyNotifications/blob/main/Runtime/Scripts/NotificationSettings.cs) and [`ButtonSettings`](https://github.com/Schmiggolas/EasyNotifications/blob/main/Runtime/Scripts/ButtonSettings.cs) to see which features are currently supported
 
 ```csharp
 using Schmiggolas.EasyNotifications;
@@ -62,14 +61,12 @@ public void SpawnNotificationWithButtons()
 }
 ```
 
+---
+
 ## License
 
 This package is licensed under the MIT License - see the LICENSE file for details.
 
 ## Support
 
-If you encounter any issues or have questions, please file an issue on the [issue tracker](https://github.com/Schmiggolas/EasyNotifications/issues).
-
----
-
-Made with
+If you have any questions, feedback or isses, please file an issue on the [issue tracker](https://github.com/Schmiggolas/EasyNotifications/issues).
